@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ "/_assets/css/main.css" | relative_url }}">
+    <title>{{ page.title }} - {{ site.title }}</title>
+</head>
+<body>
+    <nav>
+        <ul class="nav-bar">
+            <li><a class="nav-link" href="/" {% if page.title == "Home" %}class="active-page"{% endif %}>Home</a></li>
+            <li><a href="/publications" {% if page.title == "publications" %}class="active-page"{% endif %}>Publications</a></li>
+            <li><a href="/teaching_materials" {% if page.title == "teaching_materials" %}class="active-page"{% endif %}>Teaching Materials</a></li>
+            <li><a href="{{ "/_data/documents/curriculum_vitae.pdf" | relative_url }}" {% if page.title == "Curriculum Vitae" %}class="active-page"{% endif %}>Curriculum Vitae</a></li>
+        </ul>
+    </nav>
+    <main class="main_content">
+        {{ content }}
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>

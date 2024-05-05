@@ -1,0 +1,29 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+permalink: /
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ "/_assets/css/index.css" | relative_url }}">
+    <title>{{ page.title }} - {{ site.title }}</title>
+</head>
+<body>
+            <center><h1>Jonathan Parlett</h1></center>
+    <div class="row">
+        <div id="about_me_l" class="left_col"> <!--Picture + useful links-->
+            <img src="{{ "/_data/home_data/jmp_PDR.jpg" | relative_url }}", width="500", height="500">
+        </div>
+        <div class="right_col" id="about_me_r">
+            <h2>About Me</h2>
+            <p>I am a undergradute student at Drexel University, dual majoring in mathematics, and computer science.</p>
+        </div>
+    </div>
+</body>
+</html>

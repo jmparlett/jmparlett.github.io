@@ -1,0 +1,30 @@
+/* CSS for index.html */
+
+/* Two column layout */
+ .row {
+  display: flex;
+}
+
+.left_col {
+  flex: 25%;
+}
+
+.right_col {
+  flex: 75%;
+}
+
+#about_me_r {
+  padding: 15px;
+  /* background-color: rgb(159, 160, 160); */
+  /* color: aqua; */
+}
+
+#about_me_l {
+  padding: 15px;
+  /* background-color: rgb(159, 160, 160); */
+  /* color: aqua; */
+}
+.column {
+  flex: 50%;
+}
+
