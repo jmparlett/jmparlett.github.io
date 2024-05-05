@@ -15,6 +15,10 @@
   overflow: auto; /* Enable scrolling if the sidenav has too much content */
 }
 
+.nav-bar li {
+    padding: 0;
+}
+
 .nav-bar li a {
   display: block;
   color: #000;
@@ -50,7 +54,13 @@ body {
 li {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 6px;
   overflow: auto; /* Enable scrolling if the sidenav has too much content */
 }
 
+.spaced-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 6px;
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
