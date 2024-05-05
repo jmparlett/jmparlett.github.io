@@ -19,3 +19,6 @@ permalink: /teaching_materials
     <b>Recurrence Relations Recitation:</b> <a href="{{ "/_data/documents/260_recitation/recitation_2.pdf" | relative_url }}">Problems (Made by Mihir Rao)</a>, <a href="{{ "/_data/documents/260_recitation/Recitation_2_Solved.pdf" | relative_url }}">Solutions</a>
 </li>
 </ul>
+
+#### Abstract Algebra II: Math 332
+<a href="{{ "/_data/documents/Abstract_Algebra_II_Review_Sheet.pdf" | relative_url }}">Abstract Algebra II Review</a>. Includes solutions to review problems from <a href="https://www.amazon.com/Contemporary-Abstract-Algebra-Textbooks-Mathematics/dp/0367651785/ref=sr_1_1?crid=DPZ3SHK8CEV9&dib=eyJ2IjoiMSJ9.CT_kk5bBTB2DxI2RDVO0Epk7sy5X4XIuJEk0ZY-uGzHzNv7Px7vsDZmShs_QXah1o_C8_8p1SldSuSHshllBMZiVn6s0R0tHP5klRWKVt7c.5KlASCOZcob-_gII8pC0vwFL8TdTWw3B7vUqisLE0Y0&dib_tag=se&keywords=contemporary+abstract+algebra+10th&qid=1714945763&s=books&sprefix=contemporary+abstract+algebra+10th%2Cstripbooks%2C155&sr=1-1">Contemporary Abstract Algebra 10th Edition.</a>
