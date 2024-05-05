@@ -32,8 +32,15 @@ github_username:  jekyll
 # Build settings
 # theme: minima # Disable default theme
 theme: null # No theme
+markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+highlighter: rouge
+color_mode: auto  # auto, light, or dark
+comments: false
+disqus_shortname: none
+syntax_highlight_stylesheet: syntax_highlight.css
 
 # Exclude from processing.
 # The following items will not be processed, by default.
