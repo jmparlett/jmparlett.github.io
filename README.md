@@ -1,3 +1,2 @@
 # jmparlett.github.io
-
-Wrong page :/
+Personal webpage for mathematics. Check it out [here](https://jmparlett.github.io/).
