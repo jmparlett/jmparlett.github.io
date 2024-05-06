@@ -81,4 +81,4 @@ defaults:
       layout: default
 
 # Add extra folders to jekyll's "path" essentially
-include: [_pages,_assets,_data]
+include: [_pages,_assets,_data,_includes]
