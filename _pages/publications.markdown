@@ -6,7 +6,7 @@ permalink: /publications
 # Publications
 <ul>
 {% for pub in site.data.publications%}
-    <li class="pub"> {{ pub.name }} - <a href="{{ pub.link}}">{{ pub.link }}</a> </li>
+    <li class="pub">{{pub.authors}} - <b>{{ pub.name }}</b> - <a href="{{ pub.link}}">{{ pub.link }}</a> </li>
 {% endfor %}
 </ul>
 
