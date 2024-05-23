@@ -1,6 +1,7 @@
 ---
 layout: default
-permalink: /publications
+permalink: /research
+id: research
 ---
 
 # Publications

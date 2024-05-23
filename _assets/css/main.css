@@ -1,15 +1,26 @@
 /* CSS for default layout file */
+nav {
+  /* background-color: #000000df; */
+  background-color: rgb(1, 101, 155);
+  /* border: 1px solid #555; */
+  width: 10%;
+  /* max-width: 80%; */
+  height: 100%;
+  display: block;
+  overflow-y: auto;
+  position: fixed;
+  z-index: 70;
+  font-size: large;
+}
+
 
 /* Nav Bar Styling */
 .nav-bar {
   list-style-type: none;
-  margin: 0;
+  margin: 0%;
   /* margin-right: 20px; */
   padding: 0;
   width: 10%;
-  /* background-color: #f1f1f1; */
-  background-color: #bbbbbbdf;
-  border: 1px solid #555;
   height: 100%; /* Full height */
   position: fixed; /* Make it stick, even on scroll */
   overflow: auto; /* Enable scrolling if the sidenav has too much content */
@@ -21,22 +32,37 @@
 
 .nav-bar li a {
   display: block;
-  color: #000;
+  font-family: sans-serif;
+  /* color: #e8e7e7; */
+  color: #e0e0e0;
   padding: 8px 16px;
   text-decoration: none;
 }
 
 /* Change the link color on hover */
 .nav-bar li a:hover {
-  background-color: #555;
+  /* background-color: #555; */
   color: white;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
 }
 
-/* Might disable this, seems kinda distracting */
-.active {
-  background-color: #04AA6D;
-  color: white;
+/* Keep the same hover effect on the active page */
+.active-page {
+  /* background-color: #555; */
+  color: white !important;
+  text-decoration: underline !important;
+  text-decoration-thickness: 2px !important;
 }
+#name-header{
+  padding: 10%;
+  font-family: sans-serif;
+  color: #e0e0e0;
+  /* color: white; */
+  /* padding-bottom: 10%; */
+}
+
+
 
 .main_content {
     /* margin-left: 200px; */
@@ -45,8 +71,11 @@
 }
 
 body {
+    margin: 0%;
+    display: flex;
     background-color: #e0e0e0;
-    font-size: large;
+    /* font-size: large; */
+    font-family: sans-serif;
 }
 
 

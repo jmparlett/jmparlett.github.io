@@ -12,11 +12,13 @@
 </head>
 <body>
     <nav>
+        <h3 id="name-header">Jonathan Parlett</h3>
+        <!-- <span id="name-header">Jonathan Parlett</span> -->
         <ul class="nav-bar">
-            <li><a class="nav-link" href="/" {% if page.title == "Home" %}class="active-page"{% endif %}>Home</a></li>
-            <li><a href="/publications" {% if page.title == "publications" %}class="active-page"{% endif %}>Publications</a></li>
-            <li><a href="/teaching_materials" {% if page.title == "teaching_materials" %}class="active-page"{% endif %}>Teaching Materials</a></li>
-            <li><a href="/blog" | relative_url }}" {% if page.title == "blog" %}class="active-page"{% endif %}>Blog</a></li>
+            <li><a href="/" {% if page.id == "home" %}class="active-page"{% endif %}>Home</a></li>
+            <li><a href="/research" {% if page.id == "research" %}class="active-page"{% endif %}>Research</a></li>
+            <li><a href="/teaching_materials" {% if page.id == "teaching" %}class="active-page"{% endif %}>Teaching Materials</a></li>
+            <li><a href="/blog" | relative_url }}" {% if page.id == "blog" %}class="active-page"{% endif %}>Blog</a></li>
             <li><a href="{{ "/_data/documents/curriculum_vitae.pdf" | relative_url }}" {% if page.title == "Curriculum Vitae" %}class="active-page"{% endif %}>Curriculum Vitae</a></li>
         </ul>
     </nav>
