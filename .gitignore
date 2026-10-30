@@ -16,3 +16,6 @@ jekyll_tutorial_notes.md
 
 # Local-only notes, deliberately kept off the site
 DEVELOPMENT.md
+
+# macOS folder metadata
+.DS_Store
