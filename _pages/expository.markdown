@@ -4,7 +4,7 @@ id: expository
 ---
 
 # UGA Algebra Qual Solutions
-Solutions to some of the algebra qualifying exams I completed while studying for the qual.
+Solutions to some of the past algebra qualifying exams adminstered at UGA.
 - [Algebra Fall 2015](/_data/documents/algebra_qual_solutions/algebra_fall_2015.pdf), also see [Non degenerate forms and dual spaces](/_data/documents/algebra_qual_solutions/Non-degenerate-forms-and-dual-spaces.pdf) for question 8
 - [Algebra Spring 2015](/_data/documents/algebra_qual_solutions/algebra_spring_2015.pdf)
 - [Algebra Fall 2016](/_data/documents/algebra_qual_solutions/algebra_fall_2016.pdf)
