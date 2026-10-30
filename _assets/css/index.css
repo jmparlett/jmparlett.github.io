@@ -1,30 +1,42 @@
-/* CSS for index.html */
+/* Home page only. Loaded by _pages/index.html, on top of main.css.
+   Colours and fonts come from main.css - this file is just the layout
+   of the photo beside the About Me text. */
 
-/* Two column layout */
- .row {
+/* main.css caps text at 72ch for readability on the text pages. The home
+   page is two columns, so it needs more room. */
+.main_content {
+  max-width: 1000px;
+}
+
+.row {
   display: flex;
+  gap: 28px;
+  align-items: flex-start;
 }
 
-.left_col {
-  flex: 25%;
+.left_col  { flex: 0 0 320px; }   /* the photo */
+.right_col { flex: 1; }           /* About Me, Contact, Recent News */
+
+#about_me_l { padding: 0; }
+#about_me_r { padding: 0; }
+
+/* Let the photo scale with its column instead of sitting at its pixel size */
+#about_me_l img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
-.right_col {
-  flex: 75%;
+#about_me_r h2 {
+  margin: 0 0 .3em;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
-#about_me_r {
-  padding: 15px;
-  /* background-color: rgb(159, 160, 160); */
-  /* color: aqua; */
-}
+#about_me_r h2:not(:first-child) { margin-top: 1.5em; }
 
-#about_me_l {
-  padding: 15px;
-  /* background-color: rgb(159, 160, 160); */
-  /* color: aqua; */
+/* Stack the two columns on a narrow screen */
+@media (max-width: 760px) {
+  .row { flex-direction: column; }
+  .left_col { flex: 1 1 auto; max-width: 320px; }
 }
-.column {
-  flex: 50%;
-}
-
