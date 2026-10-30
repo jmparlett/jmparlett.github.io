@@ -34,13 +34,7 @@ github_username:  jekyll
 theme: null # No theme
 markdown: kramdown
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
-highlighter: rouge
-color_mode: auto  # auto, light, or dark
-comments: false
-disqus_shortname: none
-syntax_highlight_stylesheet: syntax_highlight.css
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -63,21 +57,13 @@ syntax_highlight_stylesheet: syntax_highlight.css
 #   - vendor/ruby/
 
 
-# Specify default layouts for post/pages
+# Every page in _pages gets the default layout automatically.
 defaults:
-  -
-    scope:
-      type: posts
-      path: _posts
-    values:
-      is_post: true
-      layout: post
   -
     scope:
       type: pages
       path: _pages
     values:
-      is_post: false
       layout: default
 
 # Add extra folders to jekyll's "path" essentially

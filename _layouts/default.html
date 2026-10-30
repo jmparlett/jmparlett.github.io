@@ -7,7 +7,6 @@
     <script type="text/javascript" id="MathJax-script" async
     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
     </script>
-    <link rel="stylesheet" type="text/css" href="{{ "/_assets/css/syntax_highlight.css" | relative_url }}">
     <title>{{ site.title }} {{ page.title }}</title>
 </head>
 <body>
@@ -17,7 +16,7 @@
         <ul class="nav-bar">
             <li><a href="/" {% if page.id == "home" %}class="active-page"{% endif %}>Home</a></li>
             <li><a href="/research" {% if page.id == "research" %}class="active-page"{% endif %}>Research</a></li>
-            <!-- <li><a href="/blog" | relative_url }}" {% if page.id == "blog" %}class="active-page"{% endif %}>Blog</a></li> -->
+            <li><a href="/expository" {% if page.id == "expository" %}class="active-page"{% endif %}>Expository</a></li>
             <li><a href="{{ "/_data/documents/curriculum_vitae.pdf" | relative_url }}" {% if page.title == "Curriculum Vitae" %}class="active-page"{% endif %}>Curriculum Vitae</a></li>
         </ul>
     </nav>
