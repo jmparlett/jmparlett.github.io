@@ -32,11 +32,11 @@ In later shells you only need the `export PATH=...` line plus `bundle exec jekyl
 | Path | What it is |
 | --- | --- |
 | `_config.yml` | Site settings. **Not** reloaded by `jekyll serve` — restart after editing. |
-| `_pages/` | The actual pages: `index.html` (home), `research.markdown`, `teaching_materials.markdown`, `blog.html`, `about.markdown`. Each sets its own `permalink` and `id`. |
+| `_pages/` | The actual pages: `index.html` (home), `research.markdown`, `blog.html`, `about.markdown`. Each sets its own `permalink` and `id`. |
 | `_layouts/default.html` | Shared shell: nav bar, MathJax, CSS. The nav links are hardcoded here. |
 | `_assets/css/` | `index.css` (home page only), `main.css` (everything else), `syntax_highlight.css`. |
 | `_data/documents/` | PDFs served directly — CV, posters, slides, handouts. |
-| `_data/img/`, `_data/home_data/` | Images. |
+| `_data/img/`, `_data/home_data/` | Images. The home page photo is `falls_2026.jpg`; the size in the `<img>` tag in `_pages/index.html` must match the file's real 3:4 dimensions. |
 | `_data/publications.yml` | Only feeds the 2023 loop on the research page; newer entries are hardcoded in `research.markdown`. |
 | `_posts/` | Blog posts. The blog is currently unlinked from the nav. |
 
