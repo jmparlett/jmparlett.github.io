@@ -10,3 +10,9 @@ vendor/
 
 # Build Notes
 jekyll_tutorial_notes.md
+
+# Claude Code metadata (machine-specific)
+.claude/
+
+# Local-only notes, deliberately kept off the site
+DEVELOPMENT.md
