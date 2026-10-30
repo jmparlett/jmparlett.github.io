@@ -108,8 +108,21 @@ a:hover {
   text-decoration-color: var(--slate-red);
 }
 
-ul { margin: .4em 0; padding-left: 0; }
+ul, ol { margin: .4em 0; padding-left: 0; }
 
 li { margin: 0; padding: 7px 0; list-style: none; }
 
 li.pub { padding: 9px 0; }   /* publication and presentation entries */
+
+/* Lists have no markers by default (the `li` rule above). To get them back for
+   one list, put {:.bullets} on the line directly after it in a markdown file:
+
+       - one
+       - two
+       {:.bullets}
+
+   `revert` hands the markers back to the browser, so a `-` list gets discs, a
+   `1.` list gets numbers, and nested lists indent and change marker normally. */
+.bullets { padding-left: 1.4em; }
+.bullets ul, .bullets ol { padding-left: 1.4em; }
+.bullets li { list-style: revert; padding: 3px 0; }
