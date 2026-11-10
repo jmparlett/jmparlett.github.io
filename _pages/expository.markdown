@@ -15,3 +15,8 @@ Solutions to some of the past algebra qualifying exams administered at UGA. I wo
 - [Algebra Spring 2018](/_data/documents/algebra_qual_solutions/algebra_spring_2018.pdf)
 - [Algebra Fall 2025](/_data/documents/algebra_qual_solutions/algebra_fall_2025.pdf)
 {:.bullets}
+
+## Other Qual Resources
+- See [Seth Nelson's website](https://srnelson1.github.io/qual_prep/) for analysis qual solutions.
+- See [Deleney Morgan's website](https://sites.google.com/view/delaney-morgan/home?authuser=0) for topology qual solutions
+- See [Zack Garza's website](https://quals.dzackgarza.com/) various resources for all of the quals.
